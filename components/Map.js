@@ -10,8 +10,6 @@ export default function Map() {
     zoom: 10,
   });
 
-  console.log(process.env.API_KEY);
-
   return (
     <ReactMapGL
       mapStyle="mapbox://styles/mapbox/streets-v11"
